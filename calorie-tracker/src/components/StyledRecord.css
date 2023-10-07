@@ -1,0 +1,15 @@
+.styled-record-date {
+    border:  1px solid #ccc;
+    border-radius: 3px;
+    list-style: none;
+    display: flex;
+    color: #666;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 0;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
