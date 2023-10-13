@@ -4,9 +4,9 @@ function RecordList (props){
     return (
     <ul className='record-list'>
         <li>
-        <CalorieRecord record={props.records[0]}></CalorieRecord>
+        <CalorieRecord record={props.records}></CalorieRecord>
         </li>
-        <li>
+        {/* <li>
         <CalorieRecord record={props.records[1]}></CalorieRecord>
         </li>
         <li>
@@ -14,7 +14,7 @@ function RecordList (props){
         </li>
         <li>
         <CalorieRecord record={props.records[3]}></CalorieRecord>
-        </li>
+        </li> */}
       </ul>
     );
 }

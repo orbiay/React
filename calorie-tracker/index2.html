@@ -1,0 +1,22 @@
+<form onSubmit={onSubmitHandler} >
+    <div>
+    <label>How many times clicked: {clicketime}</label>
+    </div>
+    <label>Date: </label>
+    <input type="date" name='date' onChange={DateHandler}></input>
+    <label> Meal: </label>
+    <select className='form select' name='meal' onChange={MealHandler}>
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+        <option value="Snacks">Snacks</option>
+    </select>
+    <label> Content: </label>
+    <input type="text" name='content' onChange={ContentHandler}></input>
+    <label>  Calories: </label>
+    <input type='text' name='calories' onChange={CaloriesHandler}></input>
+    <div className='footer'>
+        <button>Add Record</button>
+        <ClickCounter SetClicked={SetClicked}></ClickCounter>
+    </div>
+</form>
